@@ -17,8 +17,7 @@ img {
 }
 
 .centered-image {
-    width: 800px;  /* Adjust width as needed */
-    height: auto;  /* Maintain aspect ratio */
+
     display: block;
     margin: 0 auto;  /* Centers the image horizontally */
 }
@@ -29,14 +28,13 @@ img {
 
 .image-container {
     display: flex;
+    justify-self: center;
     justify-content: space-around;  /* Optional: adds space between images */
-    /* gap: 20px;  Adjust gap between images */
     text-align: center;
 }
 
 .side-by-side-image {
-    width: 45%;  /* Adjust width to your liking */
-    height: auto;  /* Maintain aspect ratio */
+    justify-self: center;
 }
 
 
